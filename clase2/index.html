@@ -1,0 +1,36 @@
+<html>
+<head>
+  <TITLE>Welcome to class 2</TITLE>
+  <script type="text/javascript">
+
+    var initialize = function() {
+      document.getElementById("boton1").style.background = 'blue';
+    }
+    function changeRed() {
+      document.getElementById("boton1").style.background = 'red';
+
+    }
+  </script>
+  <style type="text/css">
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  .boton {
+    border: 1px solid red;
+  }
+  </style>
+</head>
+<body class="" id="" onload="initialize()">
+  <img src="http://placekitten.com/g/300/300" alt="Imagen chida" onclick="alert('hola')">
+  <div onclick="changeRed()" class="boton" id="boton1">
+    no soy un boton
+  </div>
+  <div class="boton">
+    yo tamoco
+  </div>
+  <input type="text" id="text">
+  Besitos
+</body>
+
+</html>
