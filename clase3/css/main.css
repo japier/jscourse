@@ -1,0 +1,30 @@
+body {
+  background-image: url("http://placekitten.com/500/300");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.form {
+  background-color: firebrick;
+  height: 500px;
+  width: 450px;
+  /*margin: auto; /*esto es old school*/
+}
+.content {
+  padding: 30px;
+}
+.logo {
+  width: 60px;
+  height: 50px;
+  margin-top: 15px;
+  background-image: url("../assets/ps.png");
+  background-size: cover;
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-size: 100%;
+  align-items: center;
+}
