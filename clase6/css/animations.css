@@ -1,0 +1,10 @@
+@keyframes changeBackground {
+    from {
+      background-color: red;
+      font-size: 15px;
+    }
+    to {
+      background-color: yellow;
+      font-size: 5px;
+    }
+}
