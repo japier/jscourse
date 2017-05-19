@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Counter Strike</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+<body>
+  <div id="count">
+    texto por remplazar
+  </div>
+
+  <button onclick="loadItems()">Un boton</button>
+  <button onclick="restar()">Restar muertes</button>
+  <br>
+  <button onclick="printPlayerData()">Como voy?</button>
+  <div>
+    Seleciona el nombre del jugador:
+    <input id="name" type="text">
+    <button onclick="changeName()">Guardar Nombre</button>
+  </div>
+
+  <div>
+    Agregar pishis armas:
+    <input id="gun" type="text">
+    <button onclick="addGun()">Guardar Nombre</button>
+  </div>
+</body>
+</html>
