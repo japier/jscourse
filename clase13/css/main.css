@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+.battle-ground {
+  background-image: url(../assets/battleground.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.teams {  /* adfasdf;ladjsf;lakdjsf;ladjksf */
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/vs.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  min-width: 190px;
+}
+.empty-pokemon {
+  background: url(../assets/add.png) no-repeat center center;
+  min-width: 80px;
+  min-height: 80px;
+  background-size: 100%;
+  cursor: pointer;
+}
+.team1, .team2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.empty-pokemon {
+}
+.pokemon {
+  width: 80px;
+  height: 80px;
+}
+.modal {
+
+}
+.close span {
+  display: none;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#inputSearch {
+  width: 500px;
+}
+.pokemon-image {
+  width: 80px;
+  height: 80px;
+}
+.buscar {
+  margin-top: 20px;
+  background-color: melon;
+}
