@@ -1,0 +1,35 @@
+.container {
+}
+.content {
+  display: flex;
+  flex-direction: columns;
+}
+.grid {
+  background-color: pink;
+}
+.sidebar {
+  background-color: lightblue;
+}
+.bar {
+  width: 800px;
+  height: 600px;
+  background-color: AntiqueWhite;
+  position: relative;
+}
+.mesa {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.plato {
+  background-color: blue;
+  border-radius: 20px;
+  position: relative;
+  width: 30px;
+  top: 15px;
+  left: 15px;
+  height: 30px;
+}
